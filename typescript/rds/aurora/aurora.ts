@@ -174,7 +174,7 @@ export class Aurora extends Stack {
 
     for (let subnetId of subnetIds!) {
       const subid = subnetId
-        .replace('-', '')
+        //.replace('-', '')
         .replace('_', '')
         .replace(' ', '');
       subnets.push(
