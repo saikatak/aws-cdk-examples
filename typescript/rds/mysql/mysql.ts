@@ -131,7 +131,7 @@ export class Mysql extends Stack {
 
     for (let subnetId of props.subnetIds!) {
       const subid = subnetId
-        .replace('-', '')
+        //.replace('-', '')
         .replace('_', '')
         .replace(' ', '');
       subnets.push(
